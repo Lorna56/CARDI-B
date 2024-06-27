@@ -5,7 +5,7 @@
     box-sizing: ;
 }
 body{
-    background: burlywood;
+    background: rgb(164, 200, 199);
 }
 .login-box{
     background: white;
@@ -16,44 +16,14 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
-.logo{
+.company-logo{
     width: 100px;
     margin-bottom: 20px;
 }
 .login-box h2{
     margin-bottom: 20px;
-}
-.login-box button img{
-    width: 20px;
-    margin-right: 10px;
-}
-.login-box button{
-    width: 100%;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    border-radius: 30px;
-    background: transparent;
-    border: 1px solid gray;
-    font-weight: 500;
-    cursor: pointer;
-}
-.login-box hr{
-    border: 0;
-    height: 1px;
-    background: black;
-    margin: 5px;
-}
-.login-box span{
-    display: block;
-    width: 40px;
-    margin: auto;background: white;
-    font-size: 14px;
-    margin-top: -16px;
 }
 .login-box input{
     width: 100%;
@@ -68,11 +38,18 @@ body{
     font-weight: 500;
     color: black;
 }
-.login-box form button{
-    background: black;
-    color: white;
-    border: 0;
-    margin-bottom: 15px;
+.login-box button{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid gray;
+    font-weight: 500;
+    cursor: pointer;
 }
 .login-box p{
     text-align: left;
